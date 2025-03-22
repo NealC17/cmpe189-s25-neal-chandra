@@ -14,6 +14,7 @@ build_lib(
     model/propagation-loss-model.cc
     model/three-gpp-propagation-loss-model.cc
     model/three-gpp-v2v-propagation-loss-model.cc
+    model/log-normal-model.cc
   HEADER_FILES
     model/channel-condition-model.h
     model/cost231-propagation-loss-model.h
@@ -30,6 +31,7 @@ build_lib(
     model/propagation-loss-model.h
     model/three-gpp-propagation-loss-model.h
     model/three-gpp-v2v-propagation-loss-model.h
+    model/log-normal-model.h
   LIBRARIES_TO_LINK ${libmobility}
   TEST_SOURCES
     test/channel-condition-model-test-suite.cc
